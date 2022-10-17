@@ -24,7 +24,7 @@ spec:
 
   ignoreDifferences:
   - group: apps
-    Kind: Deployment
+    kind: Deployment
     jsonPointers:
     - /spec/replicas
 
